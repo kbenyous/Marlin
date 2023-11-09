@@ -691,9 +691,9 @@
     // #define DEFAULT_Kp  28.72
     // #define DEFAULT_Ki   2.62
     // #define DEFAULT_Kd  78.81
-    #define DEFAULT_Kp 20.56
-    #define DEFAULT_Ki 2.38
-    #define DEFAULT_Kd 44.41
+    #define DEFAULT_Kp 22.80
+    #define DEFAULT_Ki 2.77
+    #define DEFAULT_Kd 46.97
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
@@ -1557,7 +1557,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -30, -40, -1.68 }
+#define NOZZLE_TO_PROBE_OFFSET { -30, -40, -2.70 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
